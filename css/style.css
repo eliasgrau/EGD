@@ -1,0 +1,96 @@
+/*-------------------general-------------------*/
+	
+	body {
+		margin: 0pt;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+/*-------------------header-------------------*/
+	.header {
+		display: flex;
+		justify-content: space-between;
+		width: 80%;
+		align-items: center;
+		margin-top: 2rem;
+	}
+
+	.header h1{
+		font-family: helvetica;
+		font-weight: normal;
+		color: #bfb1ff;
+		font-style: italic;
+		font-size: 2rem;
+		text-align: left;
+
+	}
+	.header h1:hover{
+		color: lightgray;
+	}
+
+/*-------------------body-------------------*/
+
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	#aProject {
+		width: 80%;
+		margin: 1Rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 9pt;
+		border: 2pt solid white;
+	}
+
+	#aProject img{
+		width: 100%
+	}
+
+
+	#aProject p{
+		width: 100%;
+		font-family: helvetica;
+		font-weight: normal;
+		color: lightgray;
+		font-size: .8rem;
+		text-align: left;
+	}
+
+/*-------------------footer-------------------*/
+	.footer {
+		width: 80%;
+		font-family: helvetica;
+		font-weight: normal;
+		font-style: italic;
+		color: lightgray;
+		font-size: 1.5rem;
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+	
+	.footer a {
+		color: #bfb1ff ;
+
+	}
+
+
+	.footer a:hover {
+		color: lightgray ;
+
+	}
+
+
+
+
