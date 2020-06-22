@@ -33,6 +33,26 @@
 		color: lightgray;
 	}
 
+	.header a {
+		font-family: helvetica;
+		font-weight: normal;
+		font-style: italic;
+		color: lightgray;
+		font-size: 1.5rem;
+		text-align: right;
+	}
+	
+	.header a {
+		color: #bfb1ff ;
+
+	}
+
+
+	.header a:hover {
+		color: lightgray ;
+
+	}
+
 /*-------------------body-------------------*/
 
 	.container {
@@ -59,37 +79,8 @@
 	}
 
 
-	#aProject p{
-		width: 100%;
-		font-family: helvetica;
-		font-weight: normal;
-		color: lightgray;
-		font-size: .8rem;
-		text-align: left;
-	}
 
-/*-------------------footer-------------------*/
-	.footer {
-		width: 80%;
-		font-family: helvetica;
-		font-weight: normal;
-		font-style: italic;
-		color: lightgray;
-		font-size: 1.5rem;
-		text-align: center;
-		margin-bottom: 3rem;
-	}
 	
-	.footer a {
-		color: #bfb1ff ;
-
-	}
-
-
-	.footer a:hover {
-		color: lightgray ;
-
-	}
 
 
 
