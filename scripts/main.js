@@ -1,13 +1,5 @@
 var projects =[
 
-{	
-	"name": "SingBird",
-	"pic": "<img src='img/singbird_website_cover.png'>",
-	"detailPage": "'<a scr=''>",
-	"descr": "<p>SingBird: 05/18 - present</p>",
-
-
-},
 
 {	
 	"name": "Eye",
@@ -24,7 +16,7 @@ for(var i=0; i<projects.length; i++){
 			'id': 'aProject'
 		})
 		.data('project', projects[i])
-		.html(projects[i].pic + projects[i].descr)
+		.html(projects[i].pic)
 		.click(function(){ URL(google.com); });
 
 	$('.container').append(projectSummary)
