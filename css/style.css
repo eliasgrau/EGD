@@ -5,6 +5,7 @@
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
+		background-color: black;
 	}
 
 	a{
@@ -38,6 +39,7 @@
 		text-align: left;
 
 	}
+
 	.header h1:hover{
 		color: lightgray;
 	}
@@ -60,6 +62,16 @@
 		flex-wrap: wrap;
 	}
 
+	.container h2 {
+		font-family: helvetica;
+		font-weight: normal;
+		color: #561A8B;
+		font-style: italic;
+		font-size: 1rem;
+		width: 80%;
+
+	}
+
 	#aProject {
 		width: 80%;
 		margin: 1Rem;
@@ -68,7 +80,6 @@
 		justify-content: center;
 		align-items: center;
 		padding: 9pt;
-		border: 2pt solid white;
 	}
 
 	#aProject img{
