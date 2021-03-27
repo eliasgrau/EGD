@@ -1,0 +1,95 @@
+	body {
+		margin: 0pt;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		background-color: blue;
+	}
+
+	a{
+		text-decoration: none;
+		color: #561A8B;
+
+	}
+
+	.about p{
+		font-family: helvetica;
+		font-weight: normal;
+		color: #561A8B;
+		font-size: 1rem;
+
+	}
+
+	.header {
+		display: flex;
+		justify-content: space-between;
+		width: 80%;
+		align-items: center;
+		margin-top: 2rem;
+
+	}
+
+	.header h1{
+		font-family: helvetica;
+		font-weight: normal;
+		color: #561A8B;
+		font-style: italic;
+		font-size: 2rem;
+		text-align: left;
+
+	}
+	.header h1:hover{
+		color: lightgray;
+	}
+
+	.header a {
+		font-family: helvetica;
+		font-weight: normal;
+		font-style: italic;
+		font-size: 1.5rem;
+		text-align: right;
+		color: #bfb1ff ;
+	}
+
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	#aProject {
+		width: 80%;
+		margin: 1Rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 9pt;
+		border: 2pt solid white;
+	}
+
+	#aProject img{
+		width: 100%
+	}
+
+	.footer {
+		display: flex;
+		justify-content: center;
+		width: 80%;
+		align-items: center;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+		font-family: helvetica;
+		font-weight: normal;
+		font-style: italic;
+		font-size: 1.5rem;
+		text-align: right;
+		color: #bfb1ff ;
+	}
+
+	.footer a:hover {
+		color: lightgray ;
+	}
+	
