@@ -49,8 +49,25 @@
 		color: lightgray;
 		font-size: 1.5rem;
 		text-align: right;
+<<<<<<< main
 		color: #bfb1ff ;
 	}
+=======
+	}
+	
+	.header a {
+		color: #bfb1ff ;
+
+	}
+
+
+	.header a:hover {
+		color: lightgray ;
+
+	}
+
+/*-------------------body-------------------*/
+>>>>>>> master
 
 	.container {
 		display: flex;
@@ -76,6 +93,7 @@
 	}
 
 
+<<<<<<< main
 	.footer {
 		display: flex;
 		justify-content: center;
@@ -95,3 +113,11 @@
 		color: lightgray ;
 	}
 	
+=======
+
+	
+
+
+
+
+>>>>>>> master

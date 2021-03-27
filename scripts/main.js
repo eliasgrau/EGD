@@ -51,7 +51,9 @@ for(var i=0; i<projects.length; i++){
 			'id': 'aProject'
 		})
 		.data('project', projects[i])
+
 		.html(projects[i].pic) 
+
 		.click(function(){ URL(google.com); });
 
 	$('.container').append(projectSummary)
